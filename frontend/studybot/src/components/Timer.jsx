@@ -43,7 +43,21 @@ function Timer() {
             return `${mins}:${secs}`;
         };
 
-        const handle
+        const handleReset = () => {
+            setIsRunning(false);
+            setTime(mode === "focus" ? 25 * 60 : 5 * 60);
+        };
+        return (
+            <div>
+                <h1>Pomodoro Timer</h1>
+                <h2>{mode === "focus" ? "Focus Time" : "Break Time"}</h2>
+                <div>
+                    <button onClick = {() => setIsRunning(!isRunning)}>
+                        {isRunning ? "Pause" : "Start"}
+                    </button>
+                </div>
+            </div>
+        )
 
     )
 }
