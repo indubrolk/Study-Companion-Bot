@@ -10,8 +10,12 @@ function App() {
   return (
     <>
       <Navbar/>
+
      
     </>
+
+
+
   )
 }
 

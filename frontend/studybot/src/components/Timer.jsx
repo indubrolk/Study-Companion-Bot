@@ -51,13 +51,14 @@ function Timer() {
         <div>
             <h1>Pomodoro Timer</h1>
             <h2>{mode === "focus" ? "Focus Time" : "Break Time"}</h2>
+            <div>{formatTime()}</div>
             <div>
                 <button onClick={() => setIsRunning(!isRunning)}>
                     {isRunning ? "Pause" : "Start"}
                 </button>
                 <button onClick={handleReset}>Reset</button>
             </div>
-
+            <p>Pomodoros Completed: {cycles}</p>
         </div>
     );
 };
