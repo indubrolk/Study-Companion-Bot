@@ -4,7 +4,7 @@ import { CiMenuBurger } from "react-icons/ci";
 const Navbar = () => {
    const [isOpen, setIsOpen] = useState(false)
   return (
-   <nav className='bg-green-600'>
+   <nav className='bg-purple-800'>
         <div className='h-16 items-center flex justify-between ' >
             <div className='text-3xl text-white font-semibold px-5 ml-4  '>Smart Study</div>
             <div className='hidden sm:block'>
