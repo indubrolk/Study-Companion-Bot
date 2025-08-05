@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Dashboard  from './components/Dashboard'
 import About from './components/About'
+import Home from './components/Home'
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <>
       <Navbar/>
       <Routes>
-      
+        <Route path="/home" element={<Home/>} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/about" element={<About />} />
       </Routes>
