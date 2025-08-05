@@ -1,8 +1,11 @@
 import React from 'react'
+import ChatbotComponent from './ChatBot/ChatBot'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div>
+      <ChatbotComponent/>
+    </div>
   )
 }
 
