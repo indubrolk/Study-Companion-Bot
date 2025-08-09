@@ -10,7 +10,9 @@ function Dashboard() {
       <div className="grid h-56 grid-cols-2 content-start gap-4">
           <Timer/>
           <Summary/>
+          
         </div>
+
       <LearningAssistant/>
     </div>
   )
