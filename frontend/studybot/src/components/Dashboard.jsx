@@ -11,6 +11,7 @@ function Dashboard() {
           <Timer/>
           <Summary/>
         </div>
+        
       <LearningAssistant/>
     </div>
   )
