@@ -115,7 +115,7 @@ export default function LearningAssistant({ botIconUrl = null }) {
   return (
     <div className="fixed bottom-6 right-6 z-50">
       {open && (
-        <div className="w-80 max-w-screen h-150 max-h-screen bg-white shadow-2xl rounded-2xl overflow-hidden flex flex-col border">
+        <div className="w-80 max-w-screen h-120 max-h-screen bg-white shadow-2xl rounded-2xl overflow-hidden flex flex-col border">
           <div className="flex items-center justify-between px-4 py-2 border-b">
             <div className="flex items-center gap-3">
               <div className="h-9 w-9 rounded-full bg-slate-100 flex items-center justify-center">
