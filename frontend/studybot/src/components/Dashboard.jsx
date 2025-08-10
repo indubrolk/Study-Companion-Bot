@@ -9,7 +9,7 @@ function Dashboard() {
       <ChatbotComponent/>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-start sm:h-56 h-auto">
       <Timer/>
-      <Summary/>
+      <Summary />
       </div>
     </div>
     
