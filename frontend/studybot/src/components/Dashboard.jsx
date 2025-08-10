@@ -7,7 +7,7 @@ function Dashboard() {
   return (
     <div>
       <ChatbotComponent/>
-      <div className="grid h-56 grid-cols-2 content-start gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-start sm:h-56 h-auto">
       <Timer/>
       <Summary/>
       </div>
