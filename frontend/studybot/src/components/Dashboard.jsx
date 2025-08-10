@@ -1,20 +1,21 @@
 import React from 'react'
-import ChatbotComponent from './ChatBot/ChatBot'
 import Timer from './Timer'
+import LearningAssistant from './ChatBot/ChatBot'
 import Summary from './summary'
+
 
 function Dashboard() {
   return (
-    <div>
-      <ChatbotComponent/>
-      <div className="grid h-56 w-auto grid-cols-2 content-start gap-4">
-      <Timer/>
-      <Summary />
-      </div>
-    </div>
-    
-    )
-}
+    <div >
+      <div className="grid  h-100% sm:grid-cols-3 content-start gap-4 bg-gradient-to-br from-blue-50 to-indigo-100">
+          <Timer/>
+          <Summary/>
+         
+        </div>
+        <LearningAssistant/>
 
+    </div>
+  )
+}
 
 export default Dashboard
