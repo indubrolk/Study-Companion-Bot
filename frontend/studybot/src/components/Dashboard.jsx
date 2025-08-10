@@ -10,9 +10,10 @@ function Dashboard() {
       <div className="grid  h-100% sm:grid-cols-3 content-start gap-4 bg-gradient-to-br from-blue-50 to-indigo-100">
           <Timer/>
           <Summary/>
-          
+         
         </div>
         <LearningAssistant/>
+
     </div>
   )
 }
