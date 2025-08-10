@@ -6,14 +6,13 @@ import Summary from './summary'
 
 function Dashboard() {
   return (
-    <div>
-      <div className="grid h-56 grid-cols-3 content-start gap-4">
+    <div >
+      <div className="grid  h-100% sm:grid-cols-3 content-start gap-4 bg-gradient-to-br from-blue-50 to-indigo-100">
           <Timer/>
-          <LearningAssistant/>
+          <Summary/>
+          
         </div>
-          <div className="grid h-56 w-auto grid-cols-2 content-start gap-4">
-            <Summary/>
-        </div>
+        <LearningAssistant/>
     </div>
   )
 }
