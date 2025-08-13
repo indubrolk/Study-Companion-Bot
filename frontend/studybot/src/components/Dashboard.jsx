@@ -1,7 +1,8 @@
 import React from 'react'
-import ChatbotComponent from './ChatBot/ChatBot'
 import Timer from './Timer'
+import LearningAssistant from './ChatBot/ChatBot'
 import Summary from './summary'
+
 
 function Dashboard() {
   return (
@@ -12,9 +13,7 @@ function Dashboard() {
       <Summary />
       </div>
     </div>
-    
-    )
+  )
 }
-
 
 export default Dashboard
