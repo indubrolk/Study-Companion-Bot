@@ -9,7 +9,7 @@ const Quiz = () => {
     const [currentAnswer, setCurrentAnswer] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [quizStarted, setQuizStarted] = useState(false);
-    const [quizCompleted, setQuizCompleted] = useState(false);
+    const [, setQuizCompleted] = useState(false);
     const [score, setScore] = useState(0);
     const [showResults, setShowResults] = useState(false);
     const [timeLeft, setTimeLeft] = useState(60); // 60 seconds per question
