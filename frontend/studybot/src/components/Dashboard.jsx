@@ -7,8 +7,7 @@ import Summary from './summary'
 function Dashboard() {
   return (
     <div>
-      <ChatbotComponent/>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-start sm:h-56 h-auto">
+      <div className="grid  h-100% sm:grid-cols-2 content-start gap-4 bg-gradient-to-br from-blue-50 to-indigo-100">
       <Timer/>
       <Summary />
       </div>
