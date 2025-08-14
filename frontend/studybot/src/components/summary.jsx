@@ -34,10 +34,10 @@ const Summary = () => {
   return (
     <div className='flex items-center justify-center'>
     <div className="bg-white shadow-lg shadow-green-600 rounded-lg p-8 h-screen max-h-2/3 w-full max-w-md mx-auto ">
-      <h2 className="text-2xl font-bold mb-4 text-center text-black">Text Summarizer</h2>
+      <h2 className="text-2xl font-bold mb-2 text-center text-black">Text Summarizer</h2>
 
       <textarea
-        className="w-full h-90 border  border-gray-300 rounded-md p-3 mb-4 focus:outline-none focus:ring-2 focus:ring-red-300"
+        className="w-full h-80 border  border-gray-300 rounded-md p-3 mb-4 focus:outline-none focus:ring-2 focus:ring-red-300"
         rows="6"
         placeholder="Paste or write your text here..."
         value={input}
