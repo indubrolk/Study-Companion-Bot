@@ -1,6 +1,6 @@
 [package]
-org = "indu"
-name = "backend"
+org = "admin"
+name = "study_bot"
 version = "0.1.0"
 distribution = "2201.12.4"
 
