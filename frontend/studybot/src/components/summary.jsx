@@ -32,8 +32,8 @@ const Summary = () => {
   };
 
   return (
-    <div className='flex items-center justify-center'>
-    <div className="bg-white shadow-lg shadow-green-600 rounded-lg p-8 h-screen max-h-2/3 w-full max-w-md mx-auto ">
+    <div className='m-8 flex items-center justify-center bg-green-100 rounded-2xl'>
+    <div className="bg-white shadow-lg shadow-green-500 rounded-lg p-8 h-screen max-h-2/3 w-full max-w-md mx-auto ">
       <h2 className="text-2xl font-bold mb-2 text-center text-black">Text Summarizer</h2>
 
       <textarea
