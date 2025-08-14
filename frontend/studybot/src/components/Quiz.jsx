@@ -9,7 +9,7 @@ const Quiz = () => {
     const [currentAnswer, setCurrentAnswer] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [quizStarted, setQuizStarted] = useState(false);
-    const [quizCompleted, setQuizCompleted] = useState(false);
+    const [, setQuizCompleted] = useState(false);
     const [score, setScore] = useState(0);
     const [showResults, setShowResults] = useState(false);
     const [timeLeft, setTimeLeft] = useState(60); // 60 seconds per question
@@ -172,11 +172,11 @@ const Quiz = () => {
     // If quiz not started, show start screen
     if (!quizStarted) {
         return (
-            <div className="max-w-2xl mx-auto p-8 bg-white rounded-2xl shadow-xl">
+            <div className="m-8 p-8 bg-green-100 rounded-2xl shadow-xl">
                 <div className="text-center">
                     <div className="mb-6">
                         <div
-                            className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
                             <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                       d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
@@ -201,7 +201,7 @@ const Quiz = () => {
 
                     <button
                         onClick={startQuiz}
-                        className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-4 px-8 rounded-xl transition duration-300 transform hover:scale-105 shadow-lg"
+                        className="bg-gradient-to-r from-green-600 to-green-600 hover:from-green-700 hover:to-green-600 text-white font-bold py-4 px-8 rounded-xl transition duration-300 transform hover:scale-105 shadow-lg"
                     >
                         Start Quiz
                     </button>
@@ -217,9 +217,9 @@ const Quiz = () => {
                 <div className="text-center">
                     <div className="relative">
                         <div
-                            className="animate-spin rounded-full h-16 w-16 border-4 border-gray-200 border-t-blue-600 mx-auto mb-4"></div>
+                            className="animate-spin rounded-full h-16 w-16 border-4 border-gray-200 border-t-green-600 mx-auto mb-4"></div>
                         <div className="absolute inset-0 flex items-center justify-center">
-                            <div className="w-8 h-8 bg-blue-600 rounded-full animate-pulse"></div>
+                            <div className="w-8 h-8 bg-green-600 rounded-full animate-pulse"></div>
                         </div>
                     </div>
                     <p className="text-gray-600 text-lg">Generating AI quiz questions...</p>
@@ -233,11 +233,11 @@ const Quiz = () => {
     if (showResults) {
         const percentage = getScorePercentage();
         return (
-            <div className="max-w-2xl mx-auto p-8 bg-white rounded-2xl shadow-xl">
+            <div className="max-w-2xl mx-auto p-8 bg-green-100 rounded-2xl shadow-xl">
                 <div className="text-center">
                     <div className="mb-8">
                         <div
-                            className="w-24 h-24 bg-gradient-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                            className="w-24 h-24 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
                             <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -247,7 +247,7 @@ const Quiz = () => {
                         <p className="text-gray-600">Here are your results:</p>
                     </div>
 
-                    <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-2xl p-8 mb-8">
+                    <div className="bg-gradient-to-r from-green-500 to-green-600 text-white rounded-2xl p-8 mb-8">
                         <div className="text-6xl font-bold mb-2">{percentage}%</div>
                         <div className="text-xl mb-3">{score} out of {questions.length} correct</div>
                         <div className="text-lg">{getFeedbackMessage()}</div>
@@ -256,7 +256,7 @@ const Quiz = () => {
                     <div className="flex gap-4 justify-center">
                         <button
                             onClick={startQuiz}
-                            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 px-6 rounded-xl transition duration-300 transform hover:scale-105"
+                            className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-xl transition duration-300 transform hover:scale-105"
                         >
                             Take Another Quiz
                         </button>
@@ -275,7 +275,7 @@ const Quiz = () => {
     // Main quiz interface
     if (questions.length === 0) {
         return (
-            <div className="max-w-2xl mx-auto p-8 bg-white rounded-2xl shadow-xl">
+            <div className="max-w-2xl mx-auto p-8 bg-green-100 rounded-2xl shadow-xl">
                 <div className="text-center">
                     <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                         <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -310,7 +310,7 @@ const Quiz = () => {
 
                 <div className="text-center">
                     <div
-                        className={`text-3xl font-bold ${timeLeft <= 10 ? 'text-red-600 animate-pulse' : 'text-blue-600'}`}>
+                        className={`text-3xl font-bold ${timeLeft <= 10 ? 'text-red-600 animate-pulse' : 'text-green-600'}`}>
                         {formatTime(timeLeft)}
                     </div>
                     <div className="text-sm text-gray-500">Time remaining</div>
@@ -321,7 +321,7 @@ const Quiz = () => {
             <div className="mb-8">
                 <div className="w-full bg-gray-200 rounded-full h-3">
                     <div
-                        className="bg-gradient-to-r from-blue-600 to-purple-600 h-3 rounded-full transition-all duration-500"
+                        className="bg-gradient-to-r from-green-600 to-green-400 h-3 rounded-full transition-all duration-500"
                         style={{width: `${((currentQuestionIndex + 1) / questions.length) * 100}%`}}
                     ></div>
                 </div>
@@ -341,14 +341,14 @@ const Quiz = () => {
                             onClick={() => handleAnswerSelect(index)}
                             className={`w-full text-left p-5 rounded-xl border-2 transition-all duration-200 transform hover:scale-[1.02] ${
                                 currentAnswer === index
-                                    ? 'border-blue-500 bg-blue-50 text-blue-800 shadow-lg'
+                                    ? 'border-green-500 bg-green-50 text-green-800 shadow-lg'
                                     : 'border-gray-200 hover:border-gray-300 bg-gray-50 hover:bg-gray-100 hover:shadow-md'
                             }`}
                         >
                             <div className="flex items-center">
                 <span className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mr-4 ${
                     currentAnswer === index
-                        ? 'bg-blue-500 text-white'
+                        ? 'bg-green-500 text-white'
                         : 'bg-gray-300 text-gray-600'
                 }`}>
                   {String.fromCharCode(65 + index)}
@@ -365,12 +365,12 @@ const Quiz = () => {
                 <button
                     onClick={handleNextQuestion}
                     disabled={currentAnswer === null}
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 disabled:from-gray-400 disabled:to-gray-500 disabled:cursor-not-allowed text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 disabled:transform-none shadow-lg"
+                    className="bg-gradient-to-r from-green-600 to-green-400 hover:from-green-700 hover:to-green-500 disabled:from-gray-400 disabled:to-gray-500 disabled:cursor-not-allowed text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 disabled:transform-none shadow-lg"
                 >
                     {currentQuestionIndex === questions.length - 1 ? 'Complete Quiz' : 'Next Question'}
                 </button>
             </div>
         </div>
     )
-
-    export default Quiz;}
+}
+export default Quiz;

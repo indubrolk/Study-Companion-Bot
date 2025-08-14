@@ -1,15 +1,17 @@
 import React from 'react'
 import Timer from './Timer'
-import LearningAssistant from './ChatBot/ChatBot'
+import Quiz from './Quiz'
 import Summary from './summary'
 
 
 function Dashboard() {
   return (
     <div>
-      <div className="grid  h-100% sm:grid-cols-2 content-start gap-4 bg-gradient-to-br from-blue-50 to-indigo-100">
+      
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-start sm:h-56 h-auto">
       <Timer/>
       <Summary />
+      <Quiz/>
       </div>
     </div>
   )
