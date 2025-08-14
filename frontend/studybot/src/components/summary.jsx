@@ -35,7 +35,6 @@ const Summary = () => {
     <div className='m-8 flex items-center justify-center bg-green-100 rounded-2xl'>
     <div className="bg-white shadow-lg shadow-green-500 rounded-lg p-8 h-screen max-h-2/3 w-full max-w-md mx-auto ">
       <h2 className="text-2xl font-bold mb-2 text-center text-black">Text Summarizer</h2>
-
       <textarea
         className="w-full h-80 border  border-gray-300 rounded-md p-3 mb-4 focus:outline-none focus:ring-2 focus:ring-red-300"
         rows="6"
