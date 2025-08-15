@@ -5,25 +5,27 @@ import Navbar from './components/Navbar'
 import Dashboard  from './components/Dashboard'
 import About from './components/About'
 import Home from './components/Home'
+import Quiz from "./components/Quiz.jsx";
 
 
 function App() {
-  const [count, setCount] = useState(0)
+    const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <Navbar/>
-      <Routes>
-        <Route path="/home" element={<Home/>} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-     
-    </>
+    return (
+        <>
+            <Navbar/>
+            <Routes>
+                <Route path="/home" element={<Home/>} />
+                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/quiz" element={<Quiz/>} />
+            </Routes>
+
+        </>
 
 
 
-  )
+    )
 
 }
 
