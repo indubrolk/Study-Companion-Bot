@@ -5,7 +5,18 @@
 
 [ballerina]
 dependencies-toml-version = "2"
-distribution-version = "2201.12.4"
+distribution-version = "2201.12.7"
+
+[[package]]
+org = "admin"
+name = "study_bot"
+version = "0.1.0"
+dependencies = [
+	{org = "ballerinai", name = "observe"}
+]
+modules = [
+	{org = "admin", packageName = "study_bot", moduleName = "study_bot"}
+]
 
 [[package]]
 org = "ballerina"
@@ -30,16 +41,5 @@ dependencies = [
 ]
 modules = [
 	{org = "ballerinai", packageName = "observe", moduleName = "observe"}
-]
-
-[[package]]
-org = "indu"
-name = "backend"
-version = "0.1.0"
-dependencies = [
-	{org = "ballerinai", name = "observe"}
-]
-modules = [
-	{org = "indu", packageName = "backend", moduleName = "backend"}
 ]
 
