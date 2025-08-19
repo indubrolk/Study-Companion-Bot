@@ -4,7 +4,6 @@ const About = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    // Trigger animation when component mounts
     setTimeout(() => setVisible(true), 100);
   }, []);
 
