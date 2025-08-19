@@ -8,11 +8,7 @@ export default function Footer() {
         <div className="text-lg font-bold">Smart Study</div>
 
       
-        <div className="flex space-x-6 my-4 md:my-0">
-          <a href="/home" className="hover:text-gray-200">Home</a>
-          <a href="/dashboard" className="hover:text-gray-200">Dashboard</a>
-          <a href="/about" className="hover:text-gray-200">About</a>
-        </div>
+        
 
        
         <div className="text-sm">
