@@ -18,11 +18,16 @@ const Summary = () => {
     setSummary('');
 
     try {
-      const res = await axios.post('http://localhost:9090/study/summarize', input, {
-        headers: {
-          'Content-Type': 'text/plain',
-        },
-      });
+      const res = await axios.post(
+  'http://localhost:9090/study/summarize',
+  { text: input },   // <-- send JSON object, not raw text
+  {
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  }
+);
+
       setSummary(res.data.summary);
     } catch (err) {
       setError('Failed to fetch summary. Please try again.');
