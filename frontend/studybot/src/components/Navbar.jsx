@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import { CiMenuBurger } from "react-icons/ci";
 import { Link } from 'react-router-dom';
+import Home from  './Home'
 
 const Navbar = () => {
    const [isOpen, setIsOpen] = useState(false)
   return (
+
    <nav className='bg-green-600'>
         <div className='h-16 items-center flex justify-between ' >
             <div className='text-3xl text-white font-semibold px-5 ml-4  '>
@@ -24,7 +26,5 @@ const Navbar = () => {
             <Link to="/about" className='text-black text-2xl px-4 block py-2 text-center hover:text-white '>About</Link>   
         </div>
    </nav>
-  )
-}
 
 export default Navbar
