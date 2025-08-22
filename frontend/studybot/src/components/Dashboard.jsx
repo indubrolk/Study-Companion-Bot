@@ -9,9 +9,9 @@ function Dashboard() {
   return (
     <div>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-start  h-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-start">
       <Timer/>
-      <Summary />
+      <Summary/>
       <ChatBot/>
       <Quiz/>
       </div>

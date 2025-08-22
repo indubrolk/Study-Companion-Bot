@@ -26,5 +26,7 @@ const Navbar = () => {
             <Link to="/about" className='text-black text-2xl px-4 block py-2 text-center hover:text-white '>About</Link>   
         </div>
    </nav>
+  )
+}
 
 export default Navbar
