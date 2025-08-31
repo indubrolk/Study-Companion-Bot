@@ -10,7 +10,7 @@ const Navbar = () => {
    <nav className='bg-green-600'>
         <div className='h-16 items-center flex justify-between ' >
             <div className='text-3xl text-white font-semibold px-5 ml-4  '>
-                <Link to="/home" className='hover:text-emerald-900 hover:font-bold'>Smart Study</Link>
+                <Link to="/" className='hover:text-emerald-900 hover:font-bold'>Smart Study</Link>
             </div>
             <div className='hidden sm:block'>
                 <Link to="/home" className='text-purple-100 text-2xl px-4 hover:text-emerald-900 hover:font-bold '>Home</Link>
