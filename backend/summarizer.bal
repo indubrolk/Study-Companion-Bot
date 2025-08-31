@@ -56,22 +56,23 @@ service /study on summarizerListener {
             words.push(currentWord.trim());
         }
         
-        // Create summary (first 20 words)
-        string summary = "";
-        int count = 0;
-        foreach string w in words {
-            summary += w + " ";
-            count += 1;
-            if count == 20 {
-                summary += "...";
-                break;
-            }
-        }
-        
-        // If we have 20 or fewer words, don't add ellipsis
-        if count <= 20 {
-            summary = text;
-        }
+      // Create summary (first 20 words)
+string summary = "";
+int count = 0;
+foreach string w in words {
+    summary += w + " ";
+    count += 1;
+    if count == 20 {
+        summary += "...";
+        break;
+    }
+}
+
+// Only overwrite if the total number of words is 20 or fewer
+if words.length() <= 20 {
+    summary = text;
+}
+
         
         // Return JSON
         res.setJsonPayload({"summary": summary.trim()});
