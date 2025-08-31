@@ -5,8 +5,7 @@ import Navbar from './components/Navbar'
 import Dashboard  from './components/Dashboard'
 import About from './components/About'
 import Home from './components/Home'
-
-import Footer from './components/footer.jsx'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -16,6 +15,7 @@ function App() {
         <>
             <Navbar/>
             <Routes>
+                <Route path='/' element={<Home/>} />
                 <Route path="/home" element={<Home/>} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/about" element={<About />} />
