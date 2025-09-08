@@ -4,5 +4,8 @@
     "axios": "^1.11.0",
     "react-icons": "^5.5.0",
     "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
