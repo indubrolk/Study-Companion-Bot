@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import { CiMenuBurger } from "react-icons/ci";
 import { Link } from 'react-router-dom';
+import Home from  './Home'
 
 const Navbar = () => {
    const [isOpen, setIsOpen] = useState(false)
   return (
-   <nav className='bg-green-600'>
+
+   <nav className='bg-gradient-to-r from-green-500 via-emerald-600 to-green-700'>
         <div className='h-16 items-center flex justify-between ' >
             <div className='text-3xl text-white font-semibold px-5 ml-4  '>
                 <Link to="/" className='hover:text-emerald-900 hover:font-bold'>Smart Study</Link>
