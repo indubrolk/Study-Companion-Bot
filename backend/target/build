@@ -1,8 +1,117 @@
 {
-  "last_build_time": 1755224928182,
-  "last_update_time": 1755224928182,
-  "distribution_version": "2201.12.7",
+  "last_build_time": 1790784548408,
+  "last_update_time": 1790784530822,
+  "last_bal_toml_update_time": 1790780724219,
+  "distribution_version": "2201.13.6",
   "last_modified_time": {
-    "study_bot": 1755139029334
-  }
+    "study_bot": 1790784491069
+  },
+  "last_build_options": {
+    "testReport": true,
+    "skipTests": false,
+    "compilationOptions": {
+      "observabilityIncluded": true,
+      "cloud": "",
+      "dumpGraph": false,
+      "dumpRawGraphs": false
+    }
+  },
+  "src_meta_info": [
+    {
+      "file": "D:\\Study-Companion-Bot\\backend\\Ballerina.toml",
+      "hash": "1142d345660af13116dba14dd6ca7c0c78c75d598d46e1be967cae61df0eb908",
+      "size": 142,
+      "lastModifiedTime": 1790780724219
+    },
+    {
+      "file": "D:\\Study-Companion-Bot\\backend\\config.bal",
+      "hash": "c9b6555627d54b3d4d34c2c7411eba72c0ee22e00a587df9a88326855d1b0a77",
+      "size": 252,
+      "lastModifiedTime": 1790782644583
+    },
+    {
+      "file": "D:\\Study-Companion-Bot\\backend\\quiz.bal",
+      "hash": "208a0aaa15bf236f40b81cad978de6245f522aeaf71391a6a24d72a6f7bd1906",
+      "size": 7410,
+      "lastModifiedTime": 1790784491069
+    },
+    {
+      "file": "D:\\Study-Companion-Bot\\backend\\service.bal",
+      "hash": "8cc536c92fe70310d14672be7ca72865301db34c463f1b08f8e5fb5becea16a8",
+      "size": 5835,
+      "lastModifiedTime": 1790784458847
+    },
+    {
+      "file": "D:\\Study-Companion-Bot\\backend\\summarizer.bal",
+      "hash": "26a5a476e29afe4b40bd192c139356e2882b00025a62b4f2d1c37960963cb42a",
+      "size": 2610,
+      "lastModifiedTime": 1790783559965
+    },
+    {
+      "file": "D:\\Study-Companion-Bot\\backend\\types.bal",
+      "hash": "75a81d657bf1554b7268c60abb3a8e6a6e9e13edb7b3888477254f444100fd23",
+      "size": 1063,
+      "lastModifiedTime": 1790784431496
+    },
+    {
+      "file": "D:\\Study-Companion-Bot\\backend\\utils.bal",
+      "hash": "86def2f7c61bc3757c0254133a1b24c929f693d4a6818d2511d6a972a1b81dc7",
+      "size": 4364,
+      "lastModifiedTime": 1790782745260
+    }
+  ],
+  "test_src_meta_info": [
+    {
+      "file": "D:\\Study-Companion-Bot\\backend\\tests\\service_test.bal",
+      "hash": "098992f5b485e70b11c189a503119a63539fc9e9b3dca187be1b342a159ba59b",
+      "size": 976,
+      "lastModifiedTime": 1790784507321
+    }
+  ],
+  "target_exec_meta_info": {
+    "file": "D:\\Study-Companion-Bot\\backend\\target\\backup\\bin\\study_bot.jar",
+    "hash": "10bfefff253a856807364881c043417c0409b0d4b9dd90f2fd9cba9a4289be84",
+    "size": 49302269,
+    "lastModifiedTime": 1790784536146
+  },
+  "settings_meta_info": {
+    "file": "C:\\Users\\Eshan\\.ballerina\\Settings.toml",
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "lastModifiedTime": 1755231849888
+  },
+  "ballerina_toml_meta_info": {
+    "file": "D:\\Study-Companion-Bot\\backend\\Ballerina.toml",
+    "hash": "1142d345660af13116dba14dd6ca7c0c78c75d598d46e1be967cae61df0eb908",
+    "size": 142,
+    "lastModifiedTime": 1790780724219
+  },
+  "test_artifact_meta_info": [
+    {
+      "file": "D:\\Study-Companion-Bot\\backend\\target\\backup\\cache\\tests_cache\\test_suit.json",
+      "hash": "1860186797ed5577bf0c87d6828d3a4dc0a9d1cf1eb5edf84fb391d0d0d1094c",
+      "size": 15125,
+      "lastModifiedTime": 1790784548474
+    },
+    {
+      "file": "D:\\Study-Companion-Bot\\backend\\target\\backup\\cache\\admin\\study_bot\\0.1.0\\java21\\admin-study_bot-0.1.0-testable.jar",
+      "hash": "83bbbbfe4312a6a616ce8f2cd6b9d1a90cc894c13581ea36a26b26268258610a",
+      "size": 52292,
+      "lastModifiedTime": 1790784548389
+    },
+    {
+      "file": "D:\\Study-Companion-Bot\\backend\\target\\backup\\cache\\admin\\study_bot\\0.1.0\\java21\\admin-study_bot-0.1.0.jar",
+      "hash": "3a50f883dfe40ee8b31929d084f0c952d61d14c1510a5594ac98a7154057d46c",
+      "size": 331738,
+      "lastModifiedTime": 1790784548368
+    }
+  ],
+  "test_class_path": "C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-codec-4.1.137.Final.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\jwt\\2.15.1\\java21\\platform\\java21\\jwt-native-2.15.1.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\data.jsondata\\1.1.4\\java21\\platform\\java21\\data.jsondata-native-1.1.4.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\file\\1.13.1\\java21\\platform\\java21\\file-native-1.13.1.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\mime\\2.12.2\\java21\\platform\\java21\\jakarta.activation-api-2.0.1.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\mime\\2.12.2\\java21\\platform\\java21\\mimepull-1.9.11.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\auth\\2.14.0\\java21\\platform\\java21\\auth-native-2.14.0.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\url\\2.6.2\\java21\\platform\\java21\\url-native-2.6.2.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\test\\0.0.0\\any\\platform\\java21\\testerina-core-2201.13.6.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-tcnative-boringssl-static-2.0.83.Final-osx-aarch_64.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\bin\\..\\bre\\lib\\asm-commons-9.7.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\bin\\..\\bre\\lib\\testerina-runtime-2201.13.6.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerinai\\observe\\0.0.0\\java21\\platform\\java21\\observe-internal-native-1.7.2.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\bin\\..\\bre\\lib\\ballerina-lang-2201.13.6.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\bin\\..\\bre\\lib\\java-diff-utils-4.5.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\bin\\..\\bre\\lib\\org.jacoco.core-0.8.12.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\file\\1.13.1\\java21\\platform\\java21\\org.wso2.transport.local-file-system-6.0.55.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\bin\\..\\bre\\lib\\asm-tree-9.7.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\bin\\..\\bre\\lib\\ballerina-rt-2201.13.6.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-tcnative-boringssl-static-2.0.83.Final-linux-aarch_64.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\observe\\1.7.2\\java21\\platform\\java21\\observe-native-1.7.2.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\bin\\..\\bre\\lib\\org.jacoco.report-0.8.12.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\bin\\..\\bre\\lib\\testerina-core-2201.13.6.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\bin\\..\\bre\\lib\\asm-9.7.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-tcnative-boringssl-static-2.0.83.Final-windows-x86_64.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-tcnative-boringssl-static-2.0.83.Final-osx-x86_64.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-tcnative-boringssl-static-2.0.83.Final-linux-x86_64.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-tcnative-boringssl-static-2.0.83.Final.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\crypto\\2.12.1\\java21\\platform\\java21\\crypto-native-2.12.1.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\crypto\\2.12.1\\java21\\platform\\java21\\bcpg-jdk18on-1.84.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\log\\2.17.0\\java21\\platform\\java21\\log-native-2.17.0.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\observe\\1.7.2\\java21\\platform\\java21\\opentelemetry-semconv-1.21.0-alpha.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\oauth2\\2.15.0\\java21\\platform\\java21\\oauth2-native-2.15.0.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\bcutil-jdk18on-1.85.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\bcpkix-jdk18on-1.85.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-common-4.1.137.Final.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\os\\1.10.1\\java21\\platform\\java21\\os-native-1.10.1.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-buffer-4.1.137.Final.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-resolver-4.1.137.Final.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\jboss-marshalling-2.0.5.Final.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\observe\\1.7.2\\java21\\platform\\java21\\opentelemetry-sdk-testing-1.32.0.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-codec-socks-4.1.137.Final.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\data.jsondata\\1.1.4\\java21\\platform\\java21\\json-path-2.9.0.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\bcprov-jdk18on-1.85.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\commons-pool-1.5.6.wso2v1.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-transport-native-unix-common-4.1.137.Final.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\time\\2.8.1\\java21\\platform\\java21\\time-native-2.8.1.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\log\\2.17.0\\java21\\platform\\java21\\log-compiler-plugin-2.17.0.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\task\\2.11.2\\java21\\platform\\java21\\quartz-2.3.2.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\data.jsondata\\1.1.4\\java21\\platform\\java21\\json-smart-2.4.11.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\io\\1.8.1\\java21\\platform\\java21\\io-native-1.8.1.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\lz4-java-1.11.1.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\mime\\2.12.2\\java21\\platform\\java21\\mime-native-2.12.2.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\os\\1.10.1\\java21\\platform\\java21\\os-test-utils-1.10.1.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-codec-http2-4.1.137.Final.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\os\\1.10.1\\java21\\platform\\java21\\os-compiler-plugin-1.10.1.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-tcnative-classes-2.0.83.Final.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\test\\0.0.0\\any\\platform\\java21\\java-diff-utils-4.5.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\constraint\\1.7.0\\java21\\platform\\java21\\constraint-native-1.7.0.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\observe\\1.7.2\\java21\\platform\\java21\\opentelemetry-sdk-trace-1.32.0.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\http-native-2.17.3.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\observe\\1.7.2\\java21\\platform\\java21\\opentelemetry-sdk-common-1.32.0.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\io\\1.8.1\\java21\\platform\\java21\\io-compiler-plugin-1.8.1.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\protobuf-java-3.25.5.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\data.jsondata\\1.1.4\\java21\\platform\\java21\\accessors-smart-2.4.7.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-handler-proxy-4.1.137.Final.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\task\\2.11.2\\java21\\platform\\java21\\task-native-2.11.2.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-codec-http-4.1.137.Final.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-transport-4.1.137.Final.jar;C:\\Users\\Eshan\\.ballerina\\repositories\\central.ballerina.io\\bala\\ballerina\\http\\2.17.3\\java21\\platform\\java21\\netty-handler-4.1.137.Final.jar;C:\\PROGRA~1\\BALLER~1\\DISTRI~1\\BALLER~1.6\\repo\\bala\\ballerina\\cache\\3.10.0\\java21\\platform\\java21\\cache-native-3.10.0.jar",
+  "imports": [
+    "ballerina/log",
+    "ballerina/regex",
+    "ballerina/time",
+    "ballerina/http",
+    "ballerina/test"
+  ]
 }
