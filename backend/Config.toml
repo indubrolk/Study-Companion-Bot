@@ -1,0 +1,4 @@
+# Local configuration for Study Companion Bot backend
+port = 9090
+allowedOrigins = ["http://localhost:5173", "http://localhost:3000"]
+triviaBaseUrl = "https://opentdb.com"
